@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int applesFromRaghu = 6;
+    int applesFromSheenu = 6;
+    int applesFromAkash = 6;
+
+    int totalApples = applesFromRaghu + applesFromSheenu + applesFromAkash;
+
+    printf("Raju has a total of %d apples.\n", totalApples);
+
+    return 0;
+}
